@@ -7,11 +7,22 @@
 </head>
 <body>
 <p id="message-el">Want to play a round?</p>
-<p id="card-el">Card : </p>
-<p id="sum-el">Sum : </p>
-<button id="start-btn" onclick="startGame()">Start Game</button>
-<button id="new-btn" onclick="newCard()">New Card</button>
-<p id="player-el"></p>
+
+<div>
+    <p class="character">Player</p>
+    <p id="card-el">Card : </p>
+    <p id="sum-el">Sum : </p>
+    <button id="start-btn" onclick="startGame()">New Game</button>
+    <button id="new-btn" onclick="newCard()">New Card</button>
+    <button id="showCard-btn" onclick="showCard()">Show Card</button>
+    <p id="player-el"></p>
+</div>
+<div>
+    <p class="character">Hoster</p>
+    <p id="hostcard-el">Card : </p>
+    <p id="hostsum-el">Sum : </p>
+</div>
+
 <script src="../js//BlackJack.js"></script>
 
 </body>

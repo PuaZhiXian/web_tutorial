@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1561016444-14f747499547?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZW4lMjBjb2xvcnxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size: cover;
+    text-align: center;
+}
+
+#message-el {
+    color: gold;
+    font-family: "Book Antiqua";
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div {
+    margin: auto;
+    border: 3px bold rebeccapurple;
+    border-radius: 25px;
+    background-color: rgba(72, 72, 72, 0.3);
+    width: 45%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    height: 400px;
+}
+
+
+button {
+    margin: auto;
+    width: 50%;
+    display: block;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 10px 10px;
+    background-color: bisque;
+    font-weight: bold;
+    font-family: "Cambria Math";
+}
+
+.character{
+    font-size: 30px;
+    color: lavenderblush;
+}
