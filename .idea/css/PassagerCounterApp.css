@@ -1,0 +1,50 @@
+h1 {
+    color: #b9831b;
+    font-family: Arial;
+    text-shadow: 2px 2px black;
+}
+p {
+    font-size: 75px;
+    color: white;
+}
+
+button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+span{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+body {
+    background-image: url("https://www.europarl.europa.eu/resources/library/images/20200623PHT81810/20200623PHT81810_original.jpg"); /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    margin: auto;
+    width: 50%;
+    border: 3px solid darkgoldenrod;
+    padding: 70px;
+    background-color: rgba(72, 72, 72, 0.5);
+    border-radius: 25px;
+    text-align: center;
+}
+#increment-btn{
+    background-color: #19d919;
+}
+#save-btn{
+    background-color: #fc0303;
+}
+
+
