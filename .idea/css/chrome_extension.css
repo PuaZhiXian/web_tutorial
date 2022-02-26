@@ -1,0 +1,54 @@
+#input-el{
+ border-radius: 5px;
+ padding : 5px 10px;
+ width: 100%;
+ box-sizing: border-box;
+ border: 1px solid #11d211;
+}
+
+button{
+ font-size: 15px;
+ border-radius: 5px;
+ margin-top: 5px;
+ padding: 10px 15px;
+ font-weight: bold;
+}
+body{
+ margin-top: 10px;
+ min-width: 400px;
+}
+#input-btn{
+ background-color: green;
+ color: white;
+ border: 1px solid green;
+}
+#tab-btn{
+ background-color: green;
+ color: white;
+ border: 1px solid green;
+}
+#delete-btn{
+ background-color: white;
+ color: green;
+ border: 1px solid red;
+}
+ul{
+ list-style-type: none;
+padding-left: 5px;
+}
+li{
+ margin-top: 5px;
+}
+a:link{
+ color: black;
+}
+a:visited{
+ color: blue;
+}
+
+a:hover{
+ color: hotpink;
+}
+a:active{
+ color: green;
+}
